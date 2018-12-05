@@ -1,1 +1,2 @@
-window.location.href = "http://boole.shazz.me";
+window.location.replace("http://boole.shazz.me");
+

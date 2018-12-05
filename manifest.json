@@ -3,19 +3,13 @@
   "name": "Boole",
   "short_name": "Boole",
   "version": "0.1.0",
-  "description": "Adds various quality-of-life features and workflow improvements to the online George editor",
+  "description": "A full-featured front end for George with various qualify-of-life features and workflow improvements.",
   "author": [
     "Shazz Amin <me@shazz.me>",
     "Derek Yin <derek.yin@uwaterloo.ca>"
   ],
- 
   "icons": {
-    "128": "images/boole.png"
-  },
-  "page_action": {
-    "default_icon": {   
-      "128": "images/boole.png"
-    }
+    "512": "images/boole.png"
   },
   "content_scripts": [
     {
@@ -26,3 +20,4 @@
     }
   ]
 }
+
