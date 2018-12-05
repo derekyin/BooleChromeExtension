@@ -5,3 +5,5 @@ Boole Chrome Extension
 
 Chrome extension that redirects [Ask George](https://www.student.cs.uwaterloo.ca/~se212/george/ask-george) to [Boole](http://boole.shazz.me).
 
+## Downloads
+https://github.com/derekyin/BooleChromeExtension/releases
