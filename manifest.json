@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Boole",
+  "short_name": "Boole",
+  "version": "0.1.0",
+  "description": "Adds various quality-of-life features and workflow improvements to the online George editor",
+  "author": [
+    "Shazz Amin <me@shazz.me>",
+    "Derek Yin <derek.yin@uwaterloo.ca>"
+  ],
+ 
+  "icons": {
+    "128": "images/boole.png"
+  },
+  "page_action": {
+    "default_icon": {   
+      "128": "images/boole.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["*://www.student.cs.uwaterloo.ca/~se212/george/ask-george*"],
+      "run_at": "document_start",
+      "js": ["index.js"]
+    }
+  ]
+}

